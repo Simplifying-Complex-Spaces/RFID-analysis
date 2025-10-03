@@ -40,7 +40,7 @@ db_name <- '20250806_RFID.db'
 db_path <- here('_data',db_name) 
 query_path <-  here('notebooks', 'R_Notebooks','main_query.sql')
 convenience_routines <- here('notebooks', 'R_Notebooks', 'convenience_routines.R')
-# url_db<- paste0('https://storage.googleapis.com/gate-drop-storage.simplifyingcomplexspaces.com/', db_name)
+url_db<- paste0('https://storage.googleapis.com/rfid-storage.simplifyingcomplexspaces.com/', db_name)
 ref_md5 <- '7c649a78707d1ef377084b45468a7836'
     
 source(convenience_routines, local = knitr::knit_global())
