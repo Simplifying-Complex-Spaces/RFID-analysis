@@ -162,6 +162,7 @@ cython_debug/
 *.html
 *.pdf
 *.docx
+*.tex
 
 # CMake
 cmake-build-*/
