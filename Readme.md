@@ -1,5 +1,5 @@
 # Classifying the Position of a Person Based on RFID Sensor Data and SVMs  
-This repository contains the setup to analyze RFID sensor data using a support vector machines (SVM). With data maintained in a SQLite database, the analysis in a RMarkdown file, and the entire ecosystem within a Docker container, everyone can verify the results with the exact same tools. And they can also extend it for new purposes.
+This repository contains the setup to analyze RFID sensor data using a support vector machines (SVM). With data maintained in a SQLite database, the analysis in a RMarkdown file, and the entire ecosystem within a Docker container, everyone can verify the results with the exact same tools. Even better, everyone can extend the analysis for their own purposes with the exact same data. 
 
 ## Setup  
 -   Download and install [Docker Desktop](https://www.docker.com/products/docker-desktop/) for the Docker engine and Docker Compose; Docker Desktop is [free](https://www.docker.com/pricing/) for personal use\
