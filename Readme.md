@@ -14,7 +14,7 @@ docker compose -f compose-scs-rstudio.yml up
 
 -   Navigate to the local web interface for the application: [localhost:7320](http://localhost:7320)
 -   In the lower right files panel, click `notebooks` ![fig1](./images/notebooks_ref.png)
--   Next, click `R_Notebooks` ![fig2](./images/R_Notebooks_ref.png)
+-   Next, click `R_Notebooks` ![fig2](./images/R_notebooks_ref.png)
 -   Then, click `svm_analysis.Rmd` to open the RNotebook ![fig3](./images/rmd_ref.png)
 -   Finally, re-run all the analysis and generate a fresh HTML report ![fig4](./images/knit_html.png)
 
