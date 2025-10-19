@@ -24,25 +24,19 @@ header-includes:
 ```{r, setup, echo=TRUE, warning=FALSE, message=FALSE}
 rm(list=ls())
 here::i_am('notebooks/R_Notebooks/svm_analysis.Rmd')
-library(here)
 
 library(roxygen2)
 library(tidyverse)
 library(e1071)
 library(gridExtra)
 library(kableExtra)
+library(here)
 set.seed(888)
 ```
 
 # Load Data 
 ```{r, data_load, echo=TRUE, warning=FALSE, message=FALSE}
-db_name <- '20250806_RFID.db'
-db_path <- here('_data',db_name) 
-query_path <-  here('notebooks', 'R_Notebooks','main_query.sql')
 convenience_routines <- here('notebooks', 'R_Notebooks', 'convenience_routines.R')
-url_db<- paste0('https://storage.googleapis.com/rfid-storage.simplifyingcomplexspaces.com/', db_name)
-ref_md5 <- '7c649a78707d1ef377084b45468a7836'
-    
 source(convenience_routines, local = knitr::knit_global())
 
 # Check if the local db is present; if not, download it
