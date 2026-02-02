@@ -44,7 +44,7 @@ if (!file.exists(db_path)){
     getRemoteDBfile(url_db, db_path)
 }
 # Check the hash of the db file; if matches what's specified in the notebook, proceed; if not, download from remote  
-if (tools::md5sum(db_path) != ref_md5){
+if (tools::md5sum(db_path) != md5_val){
     getRemoteDBfile(url_db, db_path)
 }
 

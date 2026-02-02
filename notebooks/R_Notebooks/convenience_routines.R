@@ -1,8 +1,8 @@
 db_name <- '20250806_RFID.db'
+md5_val <- '7c649a78707d1ef377084b45468a7836'
 db_path <- here('_data',db_name) 
 query_path <-  here('notebooks', 'R_Notebooks','main_query.sql')
 url_db<- paste0('https://storage.googleapis.com/rfid-storage.simplifyingcomplexspaces.com/', db_name)
-ref_md5 <- '7c649a78707d1ef377084b45468a7836'
 
 #' Get the database file
 #' 
