@@ -11,5 +11,5 @@ services:
       - "./.config/rstudio:/home/rstudio/.config/rstudio"
       - "./_admin:/home/rstudio/_admin"
       - "./_data:/home/rstudio/_data"
-      - "./notebooks/R_Notebooks:/home/rstudio/notebooks/R_Notebooks"
+      - "./notebooks:/home/rstudio/notebooks"
     restart: unless-stopped
