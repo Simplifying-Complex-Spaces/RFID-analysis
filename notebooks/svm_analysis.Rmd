@@ -23,7 +23,7 @@ header-includes:
 
 ```{r, setup, echo=TRUE, warning=FALSE, message=FALSE}
 rm(list=ls())
-here::i_am('notebooks/R_Notebooks/svm_analysis.Rmd')
+here::i_am('notebooks/svm_analysis.Rmd')
 
 library(roxygen2)
 library(tidyverse)
@@ -34,9 +34,10 @@ library(here)
 set.seed(888)
 ```
 
-# Load Data 
+# Load Data
+
 ```{r, data_load, echo=TRUE, warning=FALSE, message=FALSE}
-convenience_routines <- here('notebooks', 'R_Notebooks', 'convenience_routines.R')
+convenience_routines <- here('notebooks', 'convenience_routines.R')
 source(convenience_routines, local = knitr::knit_global())
 
 # Check if the local db is present; if not, download it
