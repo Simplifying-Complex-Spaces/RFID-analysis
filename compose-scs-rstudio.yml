@@ -12,4 +12,3 @@ services:
       - "./_admin:/home/rstudio/_admin"
       - "./_data:/home/rstudio/_data"
       - "./notebooks:/home/rstudio/notebooks"
-    restart: unless-stopped
